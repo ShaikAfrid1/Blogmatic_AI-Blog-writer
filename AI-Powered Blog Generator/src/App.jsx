@@ -2,6 +2,7 @@ import Header from "./header/Header";
 import Main from "./mainData/Main";
 import Footer from "./footer/Footer";
 import Mainroutes from "./components/Mainroutes";
+import ScrollToTop from "./components/ScrollToTop";
 // const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
       <Header />
 
       <Main children={<Mainroutes />} />
-
+      <ScrollToTop />
       <Footer />
     </div>
   );
